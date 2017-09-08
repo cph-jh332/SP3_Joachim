@@ -1,0 +1,10 @@
+Entity\Event_.class
+Entity\Pet.class
+Entity\Pet_.class
+Entity\Owner_.class
+REST\ApplicationConfig.class
+REST\PetResource.class
+Entity\Event.class
+Main\MyMain.class
+Entity\Owner.class
+Factory\Factory.class

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quote</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Quote of the Day</h1>
+        <p id="TheAwesomeQuote"></p>
+        <button onclick="getRandomQuote()">New Random</button>
+        <form>
+            <p>Add new Quote</p>
+            <input id="newQuote" placeholder="Input quote"/>
+            <button id="submitButton">Submit</button>
+        </form>
+        <form>
+            <p>Delete quote</p>
+            <input type="number" id="quoteId" placeholder="Input ID"/>
+            <button id="submitDelete">Submit</button>
+        </form>
+        <form>
+            <p>Get Quote by id</p>
+            <input type="number" id="newQuoteId" placeholder="Input ID"/>
+            <button id="submitGetQuote">Submit</button>
+        </form>
+        <script src="scripts/fetch.js"></script>
+    </body>
+</html>

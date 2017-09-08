@@ -1,0 +1,9 @@
+facade\PersonFacade.class
+REST\PersonResource.class
+main\mymain.class
+Entity\Person_.class
+Converter\JSONConverter.class
+REST\ApplicationConfig.class
+REST\PersonsResource.class
+Interface\IPersonFacade.class
+Entity\Person.class
